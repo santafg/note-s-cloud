@@ -1,0 +1,1463 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "KoHo", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.ul figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+  color: pink;
+}
+
+.ul figure h1 {
+  font-weight: bold;
+  margin-right: .5rem;
+  font-size: 3.3rem;
+}
+
+.comNav .ul {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 7rem;
+  background-color: #3a9e99;
+  font-size: 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+.comNav .ul .links {
+  color: white;
+}
+
+.comNav .ul .switch .links {
+  margin-left: 2rem;
+  border: 0.2rem solid green;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+}
+
+.comNav .ul .home {
+  font-size: 4rem;
+}
+
+.navBar .mobileNav {
+  display: none;
+}
+
+.pageContainer {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-warp {
+  padding-bottom: 5rem;
+}
+
+.myFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #3a9e99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.homeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+.homeContainer .homeBox {
+  width: 80vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homeContainer .homeBox .introDiv {
+  height: 100%;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.homeContainer .homeBox .introDiv h1 {
+  font-size: 4.5rem;
+  margin-top: 5rem;
+}
+
+.homeContainer .homeBox .introDiv h1 span {
+  font-weight: bold;
+  color: brown;
+}
+
+.homeContainer .homeBox .introDiv h2 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.homeContainer .homeBox .introDiv h2 span {
+  font-weight: bold;
+  color: #3a9e99;
+}
+
+.homeContainer .homeBox .introDiv h3 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+.homeContainer .homeBox .introDiv h3 span {
+  font-size: 5rem;
+  color: #e490ac;
+}
+
+.homeContainer .homeBox .introDiv button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 0.2rem solid #3a9e99;
+  background-color: white;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.homeContainer .homeBox .picDiv {
+  height: 100%;
+  width: 40%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homeContainer .homeBox .picDiv .homePic {
+  height: 35rem;
+  width: 35rem;
+}
+
+.errorContainer {
+  height: 80vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.errorContainer h1 {
+  font-size: 8rem;
+}
+
+.note_container {
+  height: 80vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+}
+
+.note_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80%;
+  width: 60%;
+  border: 1px solid #3a9e99;
+  border-radius: 1.5rem;
+}
+
+.note_box .picDiv {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.note_box .picDiv .loginPic {
+  height: 40rem;
+  width: 40rem;
+}
+
+.note_box .formDiv {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.note_box .formDiv .logHead {
+  margin-top: 8rem;
+  font-size: 3rem;
+  color: #3a9e99;
+}
+
+.note_box .formDiv .logForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 40%;
+  font-size: 2rem;
+}
+
+.note_box .formDiv .logForm input {
+  width: 90%;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 0.1rem solid #3a9e99;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.note_box .formDiv .logForm .buttonDiv {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.note_box .formDiv .logForm button {
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid #3a9e99;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.note_box .formDiv h4 {
+  color: #18614b;
+}
+
+.note_box .formDiv p {
+  font-size: 1.5rem;
+}
+
+.regNoteContainer {
+  height: 80vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+}
+
+.regNoteBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90%;
+  width: 60%;
+  border: 1px solid #3a9e99;
+  border-radius: 1.5rem;
+}
+
+.regNoteBox h4 {
+  color: #18614b;
+}
+
+.regNoteBox p {
+  font-size: 1.5rem;
+}
+
+.regNoteBox .picDiv {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.regNoteBox .picDiv .loginPic {
+  height: 40rem;
+  width: 40rem;
+}
+
+.regNoteBox .formDiv {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.regPic {
+  height: 30rem;
+  width: 40rem;
+}
+
+.regHead {
+  margin-top: 5rem;
+  font-size: 3rem;
+  color: #3a9e99;
+}
+
+.regNoteBox .formDiv .regForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 60%;
+  font-size: 2rem;
+}
+
+.regNoteBox .formDiv .regForm input {
+  width: 90%;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 0.1rem solid #3a9e99;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.regNoteBox .formDiv .regForm .buttonDiv {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.regNoteBox .formDiv .regForm button {
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid #3a9e99;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.notesContainer {
+  width: 100vw;
+  height: auto;
+}
+
+.notesContainer .noteHead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 0.3rem solid #3a9e99;
+  width: 100%;
+  height: 10vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.notesContainer .noteHead h1 {
+  font-size: 3rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.notesContainer .noteHead .addButton {
+  margin: 2rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background-color: #3a9e99;
+  color: white;
+  border: 0.1rem solid #3a9e99;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.notesContainer .noNotes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5rem;
+}
+
+.notesContainer .noNotes h1 {
+  font-size: 3rem;
+}
+
+.notesContainer .noNotes h2 {
+  font-size: 2rem;
+}
+
+.notesContainer .noNotes h2 span {
+  color: red;
+}
+
+.notesContainer .notesDiv {
+  height: auto;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.notesContainer .notesDiv .anote {
+  height: 20rem;
+  width: 30%;
+  border: .2rem solid brown;
+  border-radius: 1rem;
+  padding: .5rem;
+  margin: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.notesContainer .notesDiv .anote h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80%;
+  height: 20%;
+}
+
+.notesContainer .notesDiv .anote p {
+  width: 90%;
+  height: 45%;
+  font-size: 2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.notesContainer .notesDiv .anote .noteBtns {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 2rem;
+}
+
+.notesContainer .notesDiv .anote .noteBtns button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  color: white;
+}
+
+.notesContainer .notesDiv .anote .noteBtns .view {
+  background-color: green;
+}
+
+.notesContainer .notesDiv .anote .noteBtns .edit {
+  background-color: blue;
+}
+
+.notesContainer .notesDiv .anote .noteBtns .delete {
+  background-color: red;
+}
+
+.addNoteContainer {
+  width: 100vw;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addNoteContainer .addNoteBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 60vw;
+  height: 70vh;
+  border: 0.3rem solid #3a9e99;
+  border-radius: 2rem;
+}
+
+.addNoteContainer .addNoteBox h1 {
+  font-size: 4rem;
+  color: #3a9e99;
+  font-weight: bold;
+}
+
+.addNoteContainer .addNoteBox h2 {
+  font-size: 3rem;
+}
+
+.addNoteContainer .addNoteBox form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 80%;
+  height: 90%;
+}
+
+.addNoteContainer .addNoteBox form input,
+.addNoteContainer .addNoteBox form textarea {
+  border: none;
+  outline: none;
+}
+
+.addNoteContainer .addNoteBox form input {
+  width: 60%;
+  font-size: 2.5rem;
+  padding: 0.2rem;
+  text-align: center;
+  border-bottom: 0.1rem dotted #3a9e99;
+}
+
+.addNoteContainer .addNoteBox form textarea {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 2rem;
+  width: 100%;
+  font-size: 2rem;
+  border-left: 1px solid #3a9e99;
+  border-right: 1px solid #3a9e99;
+  overflow: auto;
+}
+
+.addNoteContainer .addNoteBox form textarea::-webkit-input-placeholder {
+  color: #3a9e99;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.addNoteContainer .addNoteBox form textarea:-ms-input-placeholder {
+  color: #3a9e99;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.addNoteContainer .addNoteBox form textarea::-ms-input-placeholder {
+  color: #3a9e99;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.addNoteContainer .addNoteBox form textarea::placeholder {
+  color: #3a9e99;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.addNoteContainer .addNoteBox form button {
+  margin: 2rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background-color: #3a9e99;
+  color: white;
+  border: 0.1rem solid #3a9e99;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.addNoteContainer .addNoteBox form .hand {
+  font-size: 6rem;
+  color: #3a9e99;
+}
+
+.viewNoteContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+.viewNoteContainer .viewNoteBox {
+  border: 0.3rem solid #3a9e99;
+  height: 60vh;
+  width: 60vw;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.viewNoteContainer .viewNoteBox h1 {
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 0.3rem dashed #3a9e99;
+  width: auto;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.viewNoteContainer .viewNoteBox p {
+  width: 90%;
+  height: 60%;
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+  border-left: 0.1rem solid #3a9e99;
+  border-right: 0.1rem solid #3a9e99;
+  padding: 1rem;
+  white-space: pre-wrap;
+  word-break: keep-all;
+  overflow: auto;
+}
+
+.viewNoteContainer .viewNoteBox .noteBtns {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 2rem;
+}
+
+.viewNoteContainer .viewNoteBox .noteBtns button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  color: white;
+}
+
+.viewNoteContainer .viewNoteBox .noteBtns .edit {
+  background-color: blue;
+}
+
+.viewNoteContainer .viewNoteBox .noteBtns .delete {
+  background-color: red;
+}
+
+.profileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+.profileContainer .profileBox {
+  width: 60vw;
+  height: 60vh;
+  border: 0.3rem solid #3a9e99;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profileContainer .profileBox .profileHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  border-bottom: 0.5rem double #3a9e99;
+}
+
+.profileContainer .profileBox .profileHeader h1 {
+  font-size: 6rem;
+  color: #3a9e99;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.profileContainer .profileBox .profileHeader .userBtns {
+  font-size: 2rem;
+}
+
+.profileContainer .profileBox .profileHeader .userBtns button {
+  margin: 1rem;
+  padding: 0.2rem 1rem;
+  outline: none;
+  background-color: #3a9e99;
+  border: 0.2rem solid black;
+  color: white;
+  border-radius: 1rem;
+}
+
+.profileContainer .profileBox .userDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 50%;
+  width: 100%;
+}
+
+.profileContainer .profileBox .userDetails h3 {
+  font-size: 3rem;
+}
+
+.profileContainer .profileBox .userDetails h5 {
+  font-size: 2rem;
+}
+
+.updateUserContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.updateUserContainer .formDiv {
+  height: 60vh;
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border: 0.3rem solid #3a9e99;
+  border-radius: 1rem;
+}
+
+.updateUserContainer .formDiv h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  border-bottom: 0.2rem solid #3a9e99;
+  width: 40%;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.updateUserContainer .formDiv form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 80%;
+  font-size: 2rem;
+}
+
+.updateUserContainer .formDiv form input {
+  width: 60%;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 0.1rem solid #3a9e99;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.updateUserContainer .formDiv form button {
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid #3a9e99;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.picAnimation {
+  animation: updown 2s infinite alternate-reverse ease-in-out;
+}
+
+.picAnimation1 {
+  animation: updown1 2s infinite alternate-reverse ease-in-out;
+}
+
+.picAnimation2 {
+  animation: updown2 2s infinite alternate-reverse ease-in-out;
+}
+
+@-webkit-keyframes updown {
+  from {
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+  }
+  to {
+    -webkit-transform: translateY(4rem);
+            transform: translateY(4rem);
+  }
+}
+
+@keyframes updown {
+  from {
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+  }
+  to {
+    -webkit-transform: translateY(4rem);
+            transform: translateY(4rem);
+  }
+}
+
+@-webkit-keyframes updown1 {
+  from {
+    -webkit-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+  }
+  to {
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+  }
+}
+
+@keyframes updown1 {
+  from {
+    -webkit-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+  }
+  to {
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+  }
+}
+
+@-webkit-keyframes updown2 {
+  from {
+    -webkit-transform: translateY(-2rem);
+            transform: translateY(-2rem);
+  }
+  to {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+}
+
+@keyframes updown2 {
+  from {
+    -webkit-transform: translateY(-2rem);
+            transform: translateY(-2rem);
+  }
+  to {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 92.5%;
+  }
+  .navBar .comNav {
+    display: none;
+  }
+  .navBar .mobileNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navBar .mobileNav .bar {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 4rem;
+    color: white;
+  }
+  .navBar .mobileNav .ul .switch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 6rem;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-top: 0.2rem solid #318288;
+  }
+  .navBar .mobileNav .ul .home {
+    display: none;
+  }
+  .navBar .mobileNav .mnav {
+    width: 100vw;
+    height: 6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #449aa0;
+  }
+  .navBar .mobileNav .mnav figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: pink;
+    font-size: 3.3rem;
+  }
+  .navBar .mobileNav .mnav figure h1 {
+    font-weight: bold;
+    margin-right: .5rem;
+  }
+  .navBar .mobileNav .links {
+    font-size: 2.5rem;
+    color: white;
+    padding: 1rem;
+  }
+  .homeContainer .homeBox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .homeContainer .homeBox .picDiv {
+    width: 100%;
+    height: 50%;
+  }
+  .homeContainer .homeBox .introDiv {
+    width: 100%;
+    height: 50%;
+  }
+  .note_box {
+    width: 90%;
+    height: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .note_box .picDiv {
+    height: 50%;
+    width: 100%;
+  }
+  .note_box .picDiv .loginPic {
+    height: 30rem;
+    width: 30rem;
+  }
+  .note_box .formDiv {
+    height: 50%;
+    width: 100%;
+  }
+  .note_box .formDiv .logHead {
+    margin-top: 1rem;
+  }
+  .note_box .formDiv .logForm {
+    height: 60%;
+  }
+  .regNoteContainer {
+    height: 90vh;
+  }
+  .regNoteBox {
+    width: 90%;
+    height: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .regNoteBox .picDiv {
+    height: 40%;
+    width: 100%;
+  }
+  .regNoteBox .picDiv .regPic {
+    height: 30rem;
+    width: 40rem;
+  }
+  .regNoteBox .formDiv {
+    height: 60%;
+    width: 100%;
+  }
+  .regNoteBox .formDiv .regHead {
+    margin-top: 4rem;
+  }
+  .regNoteBox .formDiv .regForm {
+    height: 60%;
+  }
+  .notesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+  }
+  .notesContainer .noteHead {
+    width: 96%;
+    height: 20%;
+  }
+  .notesContainer .notesDiv {
+    width: 100%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .notesContainer .notesDiv .anote {
+    width: 80%;
+    margin: 0.5rem 1rem;
+  }
+  .addNoteContainer .addNoteBox {
+    width: 80vw;
+  }
+  .addNoteContainer .addNoteBox h1 {
+    margin-top: 1rem;
+  }
+  .addNoteContainer .addNoteBox form {
+    height: 80%;
+  }
+  .addNoteContainer .addNoteBox form input {
+    width: 90%;
+  }
+  .addNoteContainer .addNoteBox form h1 {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    width: 100%;
+  }
+  .viewNoteContainer .viewNoteBox {
+    height: 70vh;
+    width: 80vw;
+    margin-top: 3rem;
+  }
+  .viewNoteContainer .viewNoteBox h1 {
+    margin-top: 2rem;
+  }
+  .viewNoteContainer .viewNoteBox p {
+    margin-top: 3rem;
+    height: 70%;
+    padding: 0 2rem;
+  }
+  .viewNoteContainer .viewNoteBox .noteBtns {
+    margin: 2rem;
+  }
+  .profileContainer {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .profileContainer .profileBox {
+    margin-top: 4rem;
+    width: 90%;
+    height: 60%;
+  }
+  .updateUserContainer .formDiv {
+    width: 90%;
+  }
+  .updateUserContainer .formDiv h1 {
+    width: 60%;
+    border: none;
+  }
+  .updateUserContainer .formDiv form {
+    margin-top: -3rem;
+    height: 90%;
+  }
+  .updateUserContainer .formDiv form input {
+    width: 90%;
+  }
+  .updateUserContainer .formDiv form button {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 65.5%;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 42.5%;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 38.5%;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 32.5%;
+  }
+}
+/*# sourceMappingURL=App.css.map */
