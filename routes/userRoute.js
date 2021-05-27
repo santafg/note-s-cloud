@@ -37,7 +37,6 @@ router.post("/login", async (req, res) => {
       res.status(400).json({ msg: "Please fill all the fields" });
     }
     const theuser = await User.findOne({ email });
-    // console.log(theuser);
 
     if (!theuser) {
       res.status(401).json({ msg: "invalid credentials" });
@@ -54,7 +53,6 @@ router.post("/login", async (req, res) => {
       },
       process.env.KEY
     );
-    // console.log(token);
     res
       .cookie("token", token, {
         httpOnly: true,
