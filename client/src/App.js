@@ -15,6 +15,7 @@ import Test from "./Pages/Notespage/Test";
 import axios from "axios";
 
 import './App.css'
+import './Note.css'
 
 
 

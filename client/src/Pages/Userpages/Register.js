@@ -84,7 +84,7 @@ const Register = () => {
                 name="password"
               />
               <input
-                type="cpassword"
+                type="password"
                 onChange={userInput}
                 placeholder="confirm password"
                 value={user.cpassword}
